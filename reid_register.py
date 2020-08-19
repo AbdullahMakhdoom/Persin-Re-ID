@@ -1,4 +1,3 @@
-from torchreid.utils import FeatureExtractor
 import numpy
 import tensorflow as tf
 import cv2
@@ -7,6 +6,7 @@ import os
 import pandas as pd
 import argparse
 import numpy as np
+from torchreid.utils import FeatureExtractor
 
 class PersonDetector:
     def __init__(self, path_to_ckpt):
