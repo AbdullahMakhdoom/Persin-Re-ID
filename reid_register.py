@@ -73,11 +73,11 @@ if __name__ == "__main__":
     # OSNet Feature Extractor
     extractor = FeatureExtractor(
         model_name='osnet_x1_0',
-         model_path='model_weights/model.pth.tar-250',
+         model_path='model_weights/osnet_weights.tar-250',
          device = 'cuda'
     )
 
-    model_path = 'model_weights/frozen_inference_graph.pb'
+    model_path = 'model_weights/ssd_weights.pb'
     odapi = PersonDetector(path_to_ckpt=model_path)
     threshold = 0.7
 
