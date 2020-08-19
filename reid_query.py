@@ -19,7 +19,7 @@ tracker = cv2.TrackerCSRT_create()
 #OSNet Feature Extractor
 extractor = FeatureExtractor(
 	model_name='osnet_x1_0',
-	 model_path='model_weights/model.pth.tar-250',
+	 model_path='model_weights/osnet_weights.tar-250',
 	 device = 'cuda'
 )
 
