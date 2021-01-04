@@ -2,7 +2,7 @@
 
 > FYP BEE-8D, SEECS, NUST, 2K16.
 
-A proof of concept of an intelligent surviellance software capable of finding a person through a series of video footage.
+A proof-of-concept of an intelligent surviellance software capable of finding a specific person through a series of surviellance footage.
 
 ![](header.png)
 ## Installation
@@ -33,23 +33,24 @@ press 's' to track. Select the person to query, then press Enter or Space.
 Cropped Images will be saved in Query Person, while "query_features.csv" in the same format as gallery.
 
 ## Citation
+
 @article{torchreid,
-  title={Torchreid: A Library for Deep Learning Person Re-Identification in Pytorch},
-  author={Zhou, Kaiyang and Xiang, Tao},
-  journal={arXiv preprint arXiv:1910.10093},
-  year={2019}
-}
+  title   = {{Torchreid: A Library for Deep Learning Person Re-Identification in Pytorch}},
+  author  = {Zhou, Kaiyang and Xiang, Tao},
+  journal = {arXiv preprint arXiv:1910.10093},
+  year    = {2019}  
+  }
 
 @inproceedings{zhou2019osnet,
-  title={Omni-Scale Feature Learning for Person Re-Identification},
-  author={Zhou, Kaiyang and Yang, Yongxin and Cavallaro, Andrea and Xiang, Tao},
+  title   = {Omni-Scale Feature Learning for Person Re-Identification},
+  author  = {Zhou, Kaiyang and Yang, Yongxin and Cavallaro, Andrea and Xiang, Tao},
   booktitle={ICCV},
-  year={2019}
+  year    = {2019}
 }
 
 @article{zhou2019learning,
-  title={Learning Generalisable Omni-Scale Representations for Person Re-Identification},
-  author={Zhou, Kaiyang and Yang, Yongxin and Cavallaro, Andrea and Xiang, Tao},
-  journal={arXiv preprint arXiv:1910.06827},
-  year={2019}
+  title   = {Learning Generalisable Omni-Scale Representations for Person Re-Identification},
+  author  = {Zhou, Kaiyang and Yang, Yongxin and Cavallaro, Andrea and Xiang, Tao},
+  journal = {arXiv preprint arXiv:1910.06827},
+  year    = {2019}
 }
