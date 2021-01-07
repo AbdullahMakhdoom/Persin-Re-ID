@@ -3,6 +3,7 @@
 > FYP BEE-8D, SEECS, NUST, 2K16.
 
 A proof-of-concept of an intelligent surviellance software capable of finding a specific person through a series of surviellance footage.
+Unlike face and gait recongition (which rely on facial feaures and walking-style to identify a person). person Re-ID makes uses  of the general appearance of the person.
 
 ![](header.png)
 ## Installation
